@@ -1,0 +1,25 @@
+2022-02-15 13:55:44 INFO  LoginStepDefinitions:28 - getStackTrace
+2022-02-15 14:35:10 INFO  LoginStepDefinitions:26 - the Site is opened succesfully
+2022-02-15 14:35:10 INFO  LoginStepDefinitions:31 - the Login logo is visible
+2022-02-15 14:35:10 INFO  LoginStepDefinitions:36 - the Username input field is visible
+2022-02-15 14:35:10 INFO  LoginStepDefinitions:41 - the Password input field is visible
+2022-02-15 14:35:10 INFO  LoginStepDefinitions:46 - the Login button is visible
+2022-02-15 14:35:10 INFO  LoginStepDefinitions:51 - the Bot image is visible
+2022-02-15 18:47:20 INFO  LoginStepDefinitions:28 - the Site is opened succesfully
+2022-02-15 19:02:08 INFO  LoginStepDefinitions:29 - the Site is opened succesfully
+2022-02-15 19:02:08 INFO  LoginStepDefinitions:61 - The username is typed into the field
+2022-02-15 19:02:08 INFO  LoginStepDefinitions:67 - The password is typed into the field
+2022-02-15 19:02:08 INFO  LoginStepDefinitions:74 - The login button is clicked
+2022-02-15 19:03:16 INFO  LoginStepDefinitions:30 - the Site is opened succesfully
+2022-02-15 19:03:16 INFO  LoginStepDefinitions:62 - The username is typed into the field
+2022-02-15 19:03:16 INFO  LoginStepDefinitions:68 - The password is typed into the field
+2022-02-15 19:03:16 INFO  LoginStepDefinitions:75 - The login button is clicked
+2022-02-15 19:03:16 INFO  LoginStepDefinitions:80 - The App logo is visible
+2022-02-15 19:03:16 INFO  LoginStepDefinitions:85 - The Products title is visible
+2022-02-15 19:03:16 INFO  LoginStepDefinitions:90 - The Products are visible
+2022-02-15 19:04:17 INFO  LoginStepDefinitions:30 - the Site is opened succesfully
+2022-02-15 19:04:18 INFO  LoginStepDefinitions:62 - The username is typed into the field
+2022-02-15 19:04:18 INFO  LoginStepDefinitions:68 - The password is typed into the field
+2022-02-15 19:04:18 INFO  LoginStepDefinitions:75 - The login button is clicked
+2022-02-15 19:04:18 INFO  LoginStepDefinitions:80 - The App logo is visible
+2022-02-15 19:04:18 INFO  LoginStepDefinitions:85 - The Products title is visible
