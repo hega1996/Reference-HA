@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class LoginPageObject extends BasePageObject {
 
     public LoginPageObject(WebDriver driver){
@@ -24,6 +26,10 @@ public class LoginPageObject extends BasePageObject {
 
     @FindBy(xpath = "//input[@id='login-button']")
     private WebElement loginButton;
+
+    @FindBy(xpath = "//div[@class=\"form_group\"]//*[name()=\"svg\"]")
+    private List<WebElement> loginErrorIcons;
+
 
     public boolean checkLoginLogo() {
         waitForElement(loginLogo);
@@ -60,6 +66,11 @@ public class LoginPageObject extends BasePageObject {
 
     public void clickOnLoginButton() {
         loginButton.click();
+    }
+
+    public boolean checkLoginErrorIcons() {
+        waitForElements(loginErrorIcons);
+        return !loginErrorIcons.isEmpty();
     }
 
 }

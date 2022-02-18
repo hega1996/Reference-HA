@@ -17,3 +17,10 @@ Feature: Test login functions
     Then the App logo is visible
     And the Products title is visible
     And the Products are visible
+
+  Scenario: 3. The login is not successful with the incorrect credentials
+    Given the Site is opened
+    When the incorrect username is typed into the Username input field
+    And the incorrect password is typed into the Password input field
+    And the Login button is clicked
+    Then the error message is displayed

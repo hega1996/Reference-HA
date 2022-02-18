@@ -33,10 +33,11 @@ public class ProductsPageObject extends BasePageObject{
 
     public boolean checkProducts() {
         waitForElements(products);
-        if (products.isEmpty()) {
-            return false;
-        }
-        return true;
+        return !products.isEmpty();
+    }
 
+    public int numberOfProducts() {
+        waitForElements(products);
+        return products.size();
     }
 }

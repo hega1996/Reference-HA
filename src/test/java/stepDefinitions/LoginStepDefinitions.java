@@ -1,5 +1,8 @@
 package stepDefinitions;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -10,6 +13,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import pageObjects.LoginPageObject;
 import pageObjects.ProductsPageObject;
 
+import java.io.IOException;
+
 import static org.junit.Assert.assertTrue;
 
 public class LoginStepDefinitions {
@@ -18,11 +23,26 @@ public class LoginStepDefinitions {
     private ProductsPageObject products;
     private Logger log= Logger.getLogger(LoginStepDefinitions.class.getName());
 
+    @Before
+    public void setUp(){
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+    }
+
+    @After
+    public void tearDown(Scenario scenario) throws IOException {
+        if (scenario.isFailed()) {
+            log.info("The '" + scenario.getName() + "' scenario is failed.");
+        } else {
+            log.info("The '" + scenario.getName() + "'scenario ran successfully.");
+        }
+        driver.close();
+        driver.quit();
+    }
+
     // 1. Scenario
     @Given("the Site is opened")
     public void the_site_is_opened() {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
         driver.manage().window().maximize();
         login = new LoginPageObject(driver);
@@ -81,13 +101,18 @@ public class LoginStepDefinitions {
     }
     @Then("the Products title is visible")
     public void the_products_title_is_visible() {
-        assertTrue("The Products title is visible",products.checkProductsTitle());
+        assertTrue("The Products title is not visible",products.checkProductsTitle());
         log.info("The Products title is visible");
     }
     @Then("the Products are visible")
     public void the_products_are_visible() {
-        assertTrue("The Products are visible", products.checkProducts());
-        log.info("The Products are visible");
+        assertTrue("The Products are not visible", products.checkProducts());
+        log.info(products.numberOfProducts()+ " products are visible");
     }
 
+    @Then("the error message is displayed")
+    public void the_error_message_is_displayed() {
+        assertTrue("The error message is not visible ", login.checkLoginErrorIcons());
+        log.info("The error message is visible");
+    }
 }
