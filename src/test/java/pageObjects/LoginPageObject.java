@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,6 +30,12 @@ public class LoginPageObject extends BasePageObject {
 
     @FindBy(xpath = "//div[@class=\"form_group\"]//*[name()=\"svg\"]")
     private List<WebElement> loginErrorIcons;
+
+    @FindBy(xpath="//button[@class='error-button']//*[name()='svg']")
+    private WebElement loginErrorCloseButton;
+
+    @FindBy(xpath = "//div[@class='error-message-container error']")
+    private WebElement loginErrorMessage;
 
 
     public boolean checkLoginLogo() {
@@ -69,8 +76,39 @@ public class LoginPageObject extends BasePageObject {
     }
 
     public boolean checkLoginErrorIcons() {
-        waitForElements(loginErrorIcons);
-        return !loginErrorIcons.isEmpty();
+        try {
+            waitForElements(loginErrorIcons);
+            return !loginErrorIcons.isEmpty();
+        }catch (TimeoutException e) {
+            return false;
+        }
+
+        }
+
+    public boolean checkLoginErrorMessage() {
+        try {
+            waitForElement(loginErrorMessage);
+            return loginErrorMessage.isDisplayed();
+        } catch ( TimeoutException e) {
+            return false;
+        }
+    }
+
+    public boolean checkLoginErrorCloseButton() throws TimeoutException {
+        try {
+            waitForElement(loginErrorCloseButton);
+            return loginErrorCloseButton.isDisplayed();
+        }
+        catch( TimeoutException e) {
+            return false;
+        }
+    }
+
+
+
+
+    public void clickOnLoginErrorCloseButton() {
+        loginErrorCloseButton.click();
     }
 
 }

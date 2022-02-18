@@ -24,3 +24,13 @@ Feature: Test login functions
     And the incorrect password is typed into the Password input field
     And the Login button is clicked
     Then the error message is displayed
+
+  Scenario: 4. The clicking of the close button on the error message hides the error message and error icons
+    Given the Site is opened
+    And the incorrect username is typed into the Username input field
+    And the incorrect password is typed into the Password input field
+    And the Login button is clicked
+    And the error message is displayed
+    When the close button on the error message is clicked
+    Then the error message is not displayed
+    And the error icons are not displayed

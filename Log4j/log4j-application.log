@@ -119,3 +119,39 @@
 2022-02-18 12:14:34 INFO  LoginStepDefinitions:95 - The login button is clicked
 2022-02-18 12:14:34 INFO  LoginStepDefinitions:116 - The error message is visible
 2022-02-18 12:14:34 INFO  LoginStepDefinitions:37 - The '3. The login is not successful with the incorrect credentials'scenario ran successfully.
+2022-02-18 13:53:37 INFO  LoginStepDefinitions:50 - the Site is opened succesfully
+2022-02-18 13:53:37 INFO  LoginStepDefinitions:82 - The username is typed into the field
+2022-02-18 13:53:38 INFO  LoginStepDefinitions:88 - The password is typed into the field
+2022-02-18 13:53:38 INFO  LoginStepDefinitions:95 - The login button is clicked
+2022-02-18 13:53:38 INFO  LoginStepDefinitions:116 - The error message is visible
+2022-02-18 13:53:38 INFO  LoginStepDefinitions:37 - The '4. The clicking of the close button on the error message hides the error message and error icons'scenario ran successfully.
+2022-02-18 14:04:25 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
+2022-02-18 14:04:25 INFO  LoginStepDefinitions:83 - The username is typed into the field
+2022-02-18 14:04:25 INFO  LoginStepDefinitions:89 - The password is typed into the field
+2022-02-18 14:04:25 INFO  LoginStepDefinitions:96 - The login button is clicked
+2022-02-18 14:04:25 INFO  LoginStepDefinitions:117 - The error message is visible
+2022-02-18 14:04:25 INFO  LoginStepDefinitions:124 - The Login error close button is clicked
+2022-02-18 14:04:42 INFO  LoginStepDefinitions:36 - The '4. The clicking of the close button on the error message hides the error message and error icons' scenario is failed.
+2022-02-18 14:04:58 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
+2022-02-18 14:04:58 INFO  LoginStepDefinitions:83 - The username is typed into the field
+2022-02-18 14:04:58 INFO  LoginStepDefinitions:89 - The password is typed into the field
+2022-02-18 14:04:58 INFO  LoginStepDefinitions:96 - The login button is clicked
+2022-02-18 14:04:58 INFO  LoginStepDefinitions:117 - The error message is visible
+2022-02-18 14:04:58 INFO  LoginStepDefinitions:124 - The Login error close button is clicked
+2022-02-18 14:05:09 INFO  LoginStepDefinitions:36 - The '4. The clicking of the close button on the error message hides the error message and error icons' scenario is failed.
+2022-02-18 14:41:14 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
+2022-02-18 14:41:15 INFO  LoginStepDefinitions:83 - The username is typed into the field
+2022-02-18 14:41:15 INFO  LoginStepDefinitions:89 - The password is typed into the field
+2022-02-18 14:41:15 INFO  LoginStepDefinitions:96 - The login button is clicked
+2022-02-18 14:41:15 INFO  LoginStepDefinitions:117 - The error message is visible
+2022-02-18 14:41:15 INFO  LoginStepDefinitions:124 - The Login error close button is clicked
+2022-02-18 14:41:26 INFO  LoginStepDefinitions:129 - The error message is not displayed
+2022-02-18 14:41:36 INFO  LoginStepDefinitions:135 - The error icons are not displayed
+2022-02-18 14:41:36 INFO  LoginStepDefinitions:38 - The '4. The clicking of the close button on the error message hides the error message and error icons'scenario ran successfully.
+2022-02-18 14:42:25 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
+2022-02-18 14:42:25 INFO  LoginStepDefinitions:83 - The username is typed into the field
+2022-02-18 14:42:25 INFO  LoginStepDefinitions:89 - The password is typed into the field
+2022-02-18 14:42:25 INFO  LoginStepDefinitions:96 - The login button is clicked
+2022-02-18 14:42:25 INFO  LoginStepDefinitions:117 - The error message is visible
+2022-02-18 14:42:25 INFO  LoginStepDefinitions:124 - The Login error close button is clicked
+2022-02-18 14:42:42 INFO  LoginStepDefinitions:36 - The '4. The clicking of the close button on the error message hides the error message and error icons' scenario is failed.

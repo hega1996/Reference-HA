@@ -15,6 +15,7 @@ import pageObjects.ProductsPageObject;
 
 import java.io.IOException;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class LoginStepDefinitions {
@@ -112,7 +113,26 @@ public class LoginStepDefinitions {
 
     @Then("the error message is displayed")
     public void the_error_message_is_displayed() {
-        assertTrue("The error message is not visible ", login.checkLoginErrorIcons());
+        assertTrue("The error message is not visible ", login.checkLoginErrorMessage());
         log.info("The error message is visible");
     }
+
+    @When("the close button on the error message is clicked")
+    public void the_close_button_on_the_error_message_is_clicked() {
+        assertTrue("The login error close button is not clicked", login.checkLoginErrorCloseButton());
+        login.clickOnLoginErrorCloseButton();
+        log.info("The Login error close button is clicked");
+    }
+    @Then("the error message is not displayed")
+    public void the_error_message_is_not_displayed() {
+        assertFalse("The error messages is displayed", login.checkLoginErrorMessage());
+        log.info("The error message is not displayed");
+    }
+
+    @Then("the error icons are not displayed")
+    public void the_error_icons_are_not_displayed() {
+        assertFalse("The error icons are displayed", login.checkLoginErrorIcons());
+        log.info("The error icons are not displayed");
+    }
+
 }
