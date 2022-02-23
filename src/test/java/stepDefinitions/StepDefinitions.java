@@ -8,21 +8,25 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pageObjects.BasePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.ProductsPageObject;
 
 import java.io.IOException;
+import java.util.List;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
-public class LoginStepDefinitions {
+public class StepDefinitions {
     private WebDriver driver;
     private LoginPageObject login;
     private ProductsPageObject products;
-    private Logger log= Logger.getLogger(LoginStepDefinitions.class.getName());
+    private BasePageObject base;
+    private Logger log= Logger.getLogger(StepDefinitions.class.getName());
+
 
     @Before
     public void setUp(){
@@ -32,7 +36,9 @@ public class LoginStepDefinitions {
 
     @After
     public void tearDown(Scenario scenario) throws IOException {
+        base = new BasePageObject(driver);
         if (scenario.isFailed()) {
+            base.takeScreenshot();
             log.info("The '" + scenario.getName() + "' scenario is failed.");
         } else {
             log.info("The '" + scenario.getName() + "'scenario ran successfully.");
@@ -40,6 +46,7 @@ public class LoginStepDefinitions {
         driver.close();
         driver.quit();
     }
+
 
     // 1. Scenario
     @Given("the Site is opened")
@@ -52,7 +59,8 @@ public class LoginStepDefinitions {
     }
     @Then("the Login-logo is visible")
     public void the_login_logo_is_visible() {
-        assertTrue("The Login-logo is not visible",login.checkLoginLogo());
+        assertFalse("The Login-logo is not visible",login.checkLoginLogo());
+        driver.findElement(By.id("asd"));
         log.info("the Login logo is visible");
     }
     @Then("the Username input field is visible")
@@ -75,6 +83,8 @@ public class LoginStepDefinitions {
         assertTrue("The Bot image is not visible",login.checkLoginBot());
         log.info("the Bot image is visible");
     }
+
+    //Scenario 2:
 
     @When("^the (\\w+) username is typed into the Username input field$")
     public void the_standard_user_username_is_typed_into_the_username_input_field(String username) {
@@ -135,4 +145,56 @@ public class LoginStepDefinitions {
         log.info("The error icons are not displayed");
     }
 
+    @When("the sorting dropdown box is clicked")
+    public void the_sorting_dropdown_box_is_clicked() {
+        products.clickOnSortDropdown();
+        log.info("The sorting dropdown box is clicked");
+    }
+
+
+    @Given("the {string} username is typed into the Username input field")
+    public void the_username_is_typed_into_the_username_input_field(String username) {
+        assertTrue("The" + username + "username is not typed into the username input field",login.checkLoginUsername());
+        login.enterUsername(username);
+        log.info("The username is typed into the field");
+    }
+    @Given("the {string} password is typed into the Password input field")
+    public void the_password_is_typed_into_the_password_input_field(String password) {
+        assertTrue("The" + password + "password is not typed into the password input field",login.checkLoginPassword());
+        login.enterPassword(password);
+        log.info("The password is typed into the field");
+    }
+
+    @Then("the following options are in the dropdown list:")
+    public void theFollowingOptionsAreInTheDropdownList(List<String> desiredOptions) {
+        assertEquals("The options are not in the dropdown list", products.getProductSortOptions(), desiredOptions);
+        log.info("The options are in the dropdown list");
+    }
+
+
+    @Then("the {string} menu item is visible")
+    public void theMenuItemIsVisible(String item) {
+        assertTrue("The "+ item + " is not visible", products.checkIfMenuContainsItem(item));
+        log.info("The"+item+ "item is visible in the menu");
+
+    }
+
+    @When("the menu button is clicked")
+    public void theMenuButtonIsClicked() {
+        products.clickOnMenuButton();
+        log.info("The menu button is clicked");
+    }
+
+    @When("the add to cart button is clicked")
+    public void theAddToCartButtonIsClicked() {
+        products.clickOnAddToCartButton();
+        log.info("The Add to cart button is clicked");
+    }
+
+
+    @Then("the remove button is visible\"")
+    public void theRemoveButtonIsVisible() {
+        assertTrue("The Remove button is not visible", products.checkRemoveFromCartButton());
+        log.info("The remove button is visible");
+    }
 }

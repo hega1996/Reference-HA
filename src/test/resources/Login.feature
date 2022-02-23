@@ -9,14 +9,19 @@ Feature: Test login functions
     And the Login button is visible
     And the Bot image is visible
 
-  Scenario: 2. The login is successful with the correct credentials
+  Scenario Outline: 2. The login is successful with the correct credentials
     Given the Site is opened
-    When the standard_user username is typed into the Username input field
-    And the secret_sauce password is typed into the Password input field
+    When the <username> username is typed into the Username input field
+    And the <password> password is typed into the Password input field
     And the Login button is clicked
     Then the App logo is visible
     And the Products title is visible
     And the Products are visible
+
+    Examples:
+    | username      | password     |
+    | standard_user | secret_sauce |
+    | problem_user  | secret_sauce |
 
   Scenario: 3. The login is not successful with the incorrect credentials
     Given the Site is opened
