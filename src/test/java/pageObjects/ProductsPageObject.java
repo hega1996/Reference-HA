@@ -38,6 +38,9 @@ public class ProductsPageObject extends BasePageObject{
     @FindBy(id = "remove-sauce-labs-backpack")
     WebElement removeFromCartButton;
 
+    @FindBy(id = "shopping_cart_container")
+    WebElement shoppingCartButton;
+
     public boolean checkProductsAppLogo() {
         waitForElement(productsAppLogo);
         return productsAppLogo.isDisplayed();
@@ -101,6 +104,8 @@ public class ProductsPageObject extends BasePageObject{
         return removeFromCartButton.isDisplayed();
     }
 
-
-
+    public void clickonShoppingCartButton() {
+        waitForElement(shoppingCartButton);
+        shoppingCartButton.click();
+    }
 }

@@ -3,6 +3,7 @@ package stepDefinitions;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -14,6 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import pageObjects.BasePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.ProductsPageObject;
+import pageObjects.ShoppingCartPageObject;
 
 import java.io.IOException;
 import java.util.List;
@@ -25,6 +27,7 @@ public class StepDefinitions {
     private LoginPageObject login;
     private ProductsPageObject products;
     private BasePageObject base;
+    private ShoppingCartPageObject shopping;
     private Logger log= Logger.getLogger(StepDefinitions.class.getName());
 
 
@@ -55,6 +58,7 @@ public class StepDefinitions {
         driver.manage().window().maximize();
         login = new LoginPageObject(driver);
         products = new ProductsPageObject(driver);
+        shopping = new ShoppingCartPageObject(driver);
         log.info("the Site is opened succesfully");
     }
     @Then("the Login-logo is visible")
@@ -196,5 +200,17 @@ public class StepDefinitions {
     public void theRemoveButtonIsVisible() {
         assertTrue("The Remove button is not visible", products.checkRemoveFromCartButton());
         log.info("The remove button is visible");
+    }
+
+    @Then("an item is in the inventory")
+    public void anItemIsInTheInventory() {
+        assertTrue("The shopping cart has no item in it", shopping.hasItem());
+        log.info("The item in the shopping cart is visible");
+    }
+
+    @And("the Shopping cart button is clicked")
+    public void theShoppingCartButtonIsClicked() {
+        products.clickonShoppingCartButton();
+        log.info("The Shopping cart button is clicked");
     }
 }
