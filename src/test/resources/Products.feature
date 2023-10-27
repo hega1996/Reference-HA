@@ -1,3 +1,4 @@
+@login    #execute by tag
 Feature: Products page functions
 
   Background:

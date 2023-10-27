@@ -1,13 +1,12 @@
 
 Feature: Test login functions
-
   Scenario: 1. The home page is loaded
     Given the Site is opened
     Then the Login-logo is visible
     And the Username input field is visible
     And the Password input field is visible
     And the Login button is visible
-    And the Bot image is visible
+    And the Credentials Helper is visible
 
   Scenario Outline: 2. The login is successful with the correct credentials
     Given the Site is opened

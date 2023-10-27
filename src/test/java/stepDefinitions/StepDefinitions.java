@@ -9,9 +9,9 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import pageObjects.BasePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.ProductsPageObject;
@@ -34,7 +34,9 @@ public class StepDefinitions {
     @Before
     public void setUp(){
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        driver = new ChromeDriver(options);
     }
 
     @After
@@ -63,8 +65,7 @@ public class StepDefinitions {
     }
     @Then("the Login-logo is visible")
     public void the_login_logo_is_visible() {
-        assertFalse("The Login-logo is not visible",login.checkLoginLogo());
-        driver.findElement(By.id("asd"));
+        assertTrue("The Login-logo is not visible",login.checkLoginLogo());
         log.info("the Login logo is visible");
     }
     @Then("the Username input field is visible")
@@ -82,10 +83,10 @@ public class StepDefinitions {
         assertTrue("The Login button is not visible",login.checkLoginButton());
         log.info("the Login button is visible");
     }
-    @Then("the Bot image is visible")
-    public void the_bot_image_is_visible() {
-        assertTrue("The Bot image is not visible",login.checkLoginBot());
-        log.info("the Bot image is visible");
+    @Then("the Credentials Helper is visible")
+    public void the_credentials_helper_is_visible() {
+        assertTrue("The swag labs title is not visible",login.checkCredentialsHelper());
+        log.info("the Credentials helper is visible");
     }
 
     //Scenario 2:

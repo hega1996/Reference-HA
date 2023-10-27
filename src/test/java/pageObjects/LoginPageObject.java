@@ -16,8 +16,8 @@ public class LoginPageObject extends BasePageObject {
     @FindBy(xpath = "//div[@class='login_logo']")
     private WebElement loginLogo;
 
-    @FindBy(xpath = "//div[@class='bot_column']")
-    private WebElement loginBot;
+    @FindBy(xpath = "//div[@class='login_credentials_wrap-inner']")
+    private WebElement credentialsHelper;
 
     @FindBy(xpath="//input[@id='user-name']")
     private WebElement loginUserName;
@@ -43,9 +43,9 @@ public class LoginPageObject extends BasePageObject {
         return loginLogo.isDisplayed();
     }
 
-    public boolean checkLoginBot() {
-        waitForElement(loginBot);
-        return loginBot.isDisplayed();
+    public boolean checkCredentialsHelper() {
+        waitForElement(credentialsHelper);
+        return credentialsHelper.isDisplayed();
     }
 
     public boolean checkLoginUsername() {
