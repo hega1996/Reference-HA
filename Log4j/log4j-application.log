@@ -1,469 +1,95 @@
-2022-02-15 13:55:44 INFO  LoginStepDefinitions:28 - getStackTrace
-2022-02-15 14:35:10 INFO  LoginStepDefinitions:26 - the Site is opened succesfully
-2022-02-15 14:35:10 INFO  LoginStepDefinitions:31 - the Login logo is visible
-2022-02-15 14:35:10 INFO  LoginStepDefinitions:36 - the Username input field is visible
-2022-02-15 14:35:10 INFO  LoginStepDefinitions:41 - the Password input field is visible
-2022-02-15 14:35:10 INFO  LoginStepDefinitions:46 - the Login button is visible
-2022-02-15 14:35:10 INFO  LoginStepDefinitions:51 - the Bot image is visible
-2022-02-15 18:47:20 INFO  LoginStepDefinitions:28 - the Site is opened succesfully
-2022-02-15 19:02:08 INFO  LoginStepDefinitions:29 - the Site is opened succesfully
-2022-02-15 19:02:08 INFO  LoginStepDefinitions:61 - The username is typed into the field
-2022-02-15 19:02:08 INFO  LoginStepDefinitions:67 - The password is typed into the field
-2022-02-15 19:02:08 INFO  LoginStepDefinitions:74 - The login button is clicked
-2022-02-15 19:03:16 INFO  LoginStepDefinitions:30 - the Site is opened succesfully
-2022-02-15 19:03:16 INFO  LoginStepDefinitions:62 - The username is typed into the field
-2022-02-15 19:03:16 INFO  LoginStepDefinitions:68 - The password is typed into the field
-2022-02-15 19:03:16 INFO  LoginStepDefinitions:75 - The login button is clicked
-2022-02-15 19:03:16 INFO  LoginStepDefinitions:80 - The App logo is visible
-2022-02-15 19:03:16 INFO  LoginStepDefinitions:85 - The Products title is visible
-2022-02-15 19:03:16 INFO  LoginStepDefinitions:90 - The Products are visible
-2022-02-15 19:04:17 INFO  LoginStepDefinitions:30 - the Site is opened succesfully
-2022-02-15 19:04:18 INFO  LoginStepDefinitions:62 - The username is typed into the field
-2022-02-15 19:04:18 INFO  LoginStepDefinitions:68 - The password is typed into the field
-2022-02-15 19:04:18 INFO  LoginStepDefinitions:75 - The login button is clicked
-2022-02-15 19:04:18 INFO  LoginStepDefinitions:80 - The App logo is visible
-2022-02-15 19:04:18 INFO  LoginStepDefinitions:85 - The Products title is visible
-2022-02-18 11:42:07 INFO  LoginStepDefinitions:30 - the Site is opened succesfully
-2022-02-18 11:42:08 INFO  LoginStepDefinitions:62 - The username is typed into the field
-2022-02-18 11:42:08 INFO  LoginStepDefinitions:68 - The password is typed into the field
-2022-02-18 11:42:08 INFO  LoginStepDefinitions:75 - The login button is clicked
-2022-02-18 11:42:08 INFO  LoginStepDefinitions:80 - The App logo is visible
-2022-02-18 11:42:08 INFO  LoginStepDefinitions:85 - The Products title is visible
-2022-02-18 11:42:08 INFO  LoginStepDefinitions:90 - The Products are visible
-2022-02-18 11:47:44 INFO  LoginStepDefinitions:30 - the Site is opened succesfully
-2022-02-18 11:47:45 INFO  LoginStepDefinitions:62 - The username is typed into the field
-2022-02-18 11:47:45 INFO  LoginStepDefinitions:68 - The password is typed into the field
-2022-02-18 11:47:45 INFO  LoginStepDefinitions:75 - The login button is clicked
-2022-02-18 11:47:45 INFO  LoginStepDefinitions:80 - The App logo is visible
-2022-02-18 11:47:45 INFO  LoginStepDefinitions:85 - The Products title is visible
-2022-02-18 11:47:45 INFO  LoginStepDefinitions:90 - 6 products are visible
-2022-02-18 11:49:15 INFO  LoginStepDefinitions:30 - the Site is opened succesfully
-2022-02-18 11:49:15 INFO  LoginStepDefinitions:62 - The username is typed into the field
-2022-02-18 11:49:15 INFO  LoginStepDefinitions:68 - The password is typed into the field
-2022-02-18 11:49:15 INFO  LoginStepDefinitions:75 - The login button is clicked
-2022-02-18 12:10:15 INFO  LoginStepDefinitions:41 - the Site is opened succesfully
-2022-02-18 12:10:15 INFO  LoginStepDefinitions:46 - the Login logo is visible
-2022-02-18 12:10:16 INFO  LoginStepDefinitions:51 - the Username input field is visible
-2022-02-18 12:10:16 INFO  LoginStepDefinitions:56 - the Password input field is visible
-2022-02-18 12:10:16 INFO  LoginStepDefinitions:61 - the Login button is visible
-2022-02-18 12:10:16 INFO  LoginStepDefinitions:66 - the Bot image is visible
-2022-02-18 12:10:20 INFO  LoginStepDefinitions:41 - the Site is opened succesfully
-2022-02-18 12:10:20 INFO  LoginStepDefinitions:73 - The username is typed into the field
-2022-02-18 12:10:20 INFO  LoginStepDefinitions:79 - The password is typed into the field
-2022-02-18 12:10:21 INFO  LoginStepDefinitions:86 - The login button is clicked
-2022-02-18 12:10:21 INFO  LoginStepDefinitions:91 - The App logo is visible
-2022-02-18 12:10:21 INFO  LoginStepDefinitions:96 - The Products title is visible
-2022-02-18 12:10:21 INFO  LoginStepDefinitions:101 - 6 products are visible
-2022-02-18 12:10:28 INFO  LoginStepDefinitions:41 - the Site is opened succesfully
-2022-02-18 12:10:28 INFO  LoginStepDefinitions:73 - The username is typed into the field
-2022-02-18 12:10:28 INFO  LoginStepDefinitions:79 - The password is typed into the field
-2022-02-18 12:10:29 INFO  LoginStepDefinitions:86 - The login button is clicked
-2022-02-18 12:10:29 INFO  LoginStepDefinitions:107 - The error message is visible
-2022-02-18 12:11:35 INFO  LoginStepDefinitions:41 - the Site is opened succesfully
-2022-02-18 12:11:35 INFO  LoginStepDefinitions:46 - the Login logo is visible
-2022-02-18 12:11:35 INFO  LoginStepDefinitions:51 - the Username input field is visible
-2022-02-18 12:11:35 INFO  LoginStepDefinitions:56 - the Password input field is visible
-2022-02-18 12:11:35 INFO  LoginStepDefinitions:61 - the Login button is visible
-2022-02-18 12:11:36 INFO  LoginStepDefinitions:66 - the Bot image is visible
-2022-02-18 12:11:39 INFO  LoginStepDefinitions:41 - the Site is opened succesfully
-2022-02-18 12:11:39 INFO  LoginStepDefinitions:73 - The username is typed into the field
-2022-02-18 12:11:39 INFO  LoginStepDefinitions:79 - The password is typed into the field
-2022-02-18 12:11:39 INFO  LoginStepDefinitions:86 - The login button is clicked
-2022-02-18 12:11:40 INFO  LoginStepDefinitions:91 - The App logo is visible
-2022-02-18 12:11:40 INFO  LoginStepDefinitions:96 - The Products title is visible
-2022-02-18 12:11:40 INFO  LoginStepDefinitions:101 - 6 products are visible
-2022-02-18 12:11:43 INFO  LoginStepDefinitions:41 - the Site is opened succesfully
-2022-02-18 12:11:43 INFO  LoginStepDefinitions:73 - The username is typed into the field
-2022-02-18 12:11:43 INFO  LoginStepDefinitions:79 - The password is typed into the field
-2022-02-18 12:11:44 INFO  LoginStepDefinitions:86 - The login button is clicked
-2022-02-18 12:11:44 INFO  LoginStepDefinitions:107 - The error message is visible
-2022-02-18 12:14:01 INFO  LoginStepDefinitions:50 - the Site is opened succesfully
-2022-02-18 12:14:02 INFO  LoginStepDefinitions:55 - the Login logo is visible
-2022-02-18 12:14:02 INFO  LoginStepDefinitions:60 - the Username input field is visible
-2022-02-18 12:14:02 INFO  LoginStepDefinitions:65 - the Password input field is visible
-2022-02-18 12:14:02 INFO  LoginStepDefinitions:70 - the Login button is visible
-2022-02-18 12:14:02 INFO  LoginStepDefinitions:75 - the Bot image is visible
-2022-02-18 12:14:02 INFO  LoginStepDefinitions:37 - The '1. The home page is loaded'scenario ran successfully.
-2022-02-18 12:14:05 INFO  LoginStepDefinitions:50 - the Site is opened succesfully
-2022-02-18 12:14:06 INFO  LoginStepDefinitions:82 - The username is typed into the field
-2022-02-18 12:14:06 INFO  LoginStepDefinitions:88 - The password is typed into the field
-2022-02-18 12:14:06 INFO  LoginStepDefinitions:95 - The login button is clicked
-2022-02-18 12:14:06 INFO  LoginStepDefinitions:100 - The App logo is visible
-2022-02-18 12:14:06 INFO  LoginStepDefinitions:105 - The Products title is visible
-2022-02-18 12:14:06 INFO  LoginStepDefinitions:110 - 6 products are visible
-2022-02-18 12:14:06 INFO  LoginStepDefinitions:37 - The '2. The login is successful with the correct credentials'scenario ran successfully.
-2022-02-18 12:14:10 INFO  LoginStepDefinitions:50 - the Site is opened succesfully
-2022-02-18 12:14:10 INFO  LoginStepDefinitions:82 - The username is typed into the field
-2022-02-18 12:14:10 INFO  LoginStepDefinitions:88 - The password is typed into the field
-2022-02-18 12:14:10 INFO  LoginStepDefinitions:95 - The login button is clicked
-2022-02-18 12:14:10 INFO  LoginStepDefinitions:116 - The error message is visible
-2022-02-18 12:14:10 INFO  LoginStepDefinitions:37 - The '3. The login is not successful with the incorrect credentials'scenario ran successfully.
-2022-02-18 12:14:26 INFO  LoginStepDefinitions:50 - the Site is opened succesfully
-2022-02-18 12:14:26 INFO  LoginStepDefinitions:55 - the Login logo is visible
-2022-02-18 12:14:26 INFO  LoginStepDefinitions:60 - the Username input field is visible
-2022-02-18 12:14:26 INFO  LoginStepDefinitions:65 - the Password input field is visible
-2022-02-18 12:14:26 INFO  LoginStepDefinitions:70 - the Login button is visible
-2022-02-18 12:14:26 INFO  LoginStepDefinitions:75 - the Bot image is visible
-2022-02-18 12:14:26 INFO  LoginStepDefinitions:37 - The '1. The home page is loaded'scenario ran successfully.
-2022-02-18 12:14:29 INFO  LoginStepDefinitions:50 - the Site is opened succesfully
-2022-02-18 12:14:30 INFO  LoginStepDefinitions:82 - The username is typed into the field
-2022-02-18 12:14:30 INFO  LoginStepDefinitions:88 - The password is typed into the field
-2022-02-18 12:14:30 INFO  LoginStepDefinitions:95 - The login button is clicked
-2022-02-18 12:14:30 INFO  LoginStepDefinitions:100 - The App logo is visible
-2022-02-18 12:14:30 INFO  LoginStepDefinitions:105 - The Products title is visible
-2022-02-18 12:14:30 INFO  LoginStepDefinitions:110 - 6 products are visible
-2022-02-18 12:14:30 INFO  LoginStepDefinitions:37 - The '2. The login is successful with the correct credentials'scenario ran successfully.
-2022-02-18 12:14:34 INFO  LoginStepDefinitions:50 - the Site is opened succesfully
-2022-02-18 12:14:34 INFO  LoginStepDefinitions:82 - The username is typed into the field
-2022-02-18 12:14:34 INFO  LoginStepDefinitions:88 - The password is typed into the field
-2022-02-18 12:14:34 INFO  LoginStepDefinitions:95 - The login button is clicked
-2022-02-18 12:14:34 INFO  LoginStepDefinitions:116 - The error message is visible
-2022-02-18 12:14:34 INFO  LoginStepDefinitions:37 - The '3. The login is not successful with the incorrect credentials'scenario ran successfully.
-2022-02-18 13:53:37 INFO  LoginStepDefinitions:50 - the Site is opened succesfully
-2022-02-18 13:53:37 INFO  LoginStepDefinitions:82 - The username is typed into the field
-2022-02-18 13:53:38 INFO  LoginStepDefinitions:88 - The password is typed into the field
-2022-02-18 13:53:38 INFO  LoginStepDefinitions:95 - The login button is clicked
-2022-02-18 13:53:38 INFO  LoginStepDefinitions:116 - The error message is visible
-2022-02-18 13:53:38 INFO  LoginStepDefinitions:37 - The '4. The clicking of the close button on the error message hides the error message and error icons'scenario ran successfully.
-2022-02-18 14:04:25 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-18 14:04:25 INFO  LoginStepDefinitions:83 - The username is typed into the field
-2022-02-18 14:04:25 INFO  LoginStepDefinitions:89 - The password is typed into the field
-2022-02-18 14:04:25 INFO  LoginStepDefinitions:96 - The login button is clicked
-2022-02-18 14:04:25 INFO  LoginStepDefinitions:117 - The error message is visible
-2022-02-18 14:04:25 INFO  LoginStepDefinitions:124 - The Login error close button is clicked
-2022-02-18 14:04:42 INFO  LoginStepDefinitions:36 - The '4. The clicking of the close button on the error message hides the error message and error icons' scenario is failed.
-2022-02-18 14:04:58 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-18 14:04:58 INFO  LoginStepDefinitions:83 - The username is typed into the field
-2022-02-18 14:04:58 INFO  LoginStepDefinitions:89 - The password is typed into the field
-2022-02-18 14:04:58 INFO  LoginStepDefinitions:96 - The login button is clicked
-2022-02-18 14:04:58 INFO  LoginStepDefinitions:117 - The error message is visible
-2022-02-18 14:04:58 INFO  LoginStepDefinitions:124 - The Login error close button is clicked
-2022-02-18 14:05:09 INFO  LoginStepDefinitions:36 - The '4. The clicking of the close button on the error message hides the error message and error icons' scenario is failed.
-2022-02-18 14:41:14 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-18 14:41:15 INFO  LoginStepDefinitions:83 - The username is typed into the field
-2022-02-18 14:41:15 INFO  LoginStepDefinitions:89 - The password is typed into the field
-2022-02-18 14:41:15 INFO  LoginStepDefinitions:96 - The login button is clicked
-2022-02-18 14:41:15 INFO  LoginStepDefinitions:117 - The error message is visible
-2022-02-18 14:41:15 INFO  LoginStepDefinitions:124 - The Login error close button is clicked
-2022-02-18 14:41:26 INFO  LoginStepDefinitions:129 - The error message is not displayed
-2022-02-18 14:41:36 INFO  LoginStepDefinitions:135 - The error icons are not displayed
-2022-02-18 14:41:36 INFO  LoginStepDefinitions:38 - The '4. The clicking of the close button on the error message hides the error message and error icons'scenario ran successfully.
-2022-02-18 14:42:25 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-18 14:42:25 INFO  LoginStepDefinitions:83 - The username is typed into the field
-2022-02-18 14:42:25 INFO  LoginStepDefinitions:89 - The password is typed into the field
-2022-02-18 14:42:25 INFO  LoginStepDefinitions:96 - The login button is clicked
-2022-02-18 14:42:25 INFO  LoginStepDefinitions:117 - The error message is visible
-2022-02-18 14:42:25 INFO  LoginStepDefinitions:124 - The Login error close button is clicked
-2022-02-18 14:42:42 INFO  LoginStepDefinitions:36 - The '4. The clicking of the close button on the error message hides the error message and error icons' scenario is failed.
-2022-02-18 19:40:33 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-18 19:40:34 INFO  LoginStepDefinitions:83 - The username is typed into the field
-2022-02-18 19:40:34 INFO  LoginStepDefinitions:89 - The password is typed into the field
-2022-02-18 19:40:34 INFO  LoginStepDefinitions:96 - The login button is clicked
-2022-02-18 19:40:34 INFO  LoginStepDefinitions:101 - The App logo is visible
-2022-02-18 19:40:34 INFO  LoginStepDefinitions:106 - The Products title is visible
-2022-02-18 19:40:34 INFO  LoginStepDefinitions:111 - 6 products are visible
-2022-02-18 19:40:34 INFO  LoginStepDefinitions:38 - The '2. The login is successful with the correct credentials'scenario ran successfully.
-2022-02-18 19:40:38 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-18 19:40:38 INFO  LoginStepDefinitions:83 - The username is typed into the field
-2022-02-18 19:40:38 INFO  LoginStepDefinitions:89 - The password is typed into the field
-2022-02-18 19:40:38 INFO  LoginStepDefinitions:96 - The login button is clicked
-2022-02-18 19:40:38 INFO  LoginStepDefinitions:101 - The App logo is visible
-2022-02-18 19:40:38 INFO  LoginStepDefinitions:106 - The Products title is visible
-2022-02-18 19:40:39 INFO  LoginStepDefinitions:111 - 6 products are visible
-2022-02-18 19:40:39 INFO  LoginStepDefinitions:38 - The '2. The login is successful with the correct credentials'scenario ran successfully.
-2022-02-18 19:42:15 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-18 19:42:15 INFO  LoginStepDefinitions:83 - The username is typed into the field
-2022-02-18 19:42:16 INFO  LoginStepDefinitions:89 - The password is typed into the field
-2022-02-18 19:42:16 INFO  LoginStepDefinitions:96 - The login button is clicked
-2022-02-18 19:42:16 INFO  LoginStepDefinitions:101 - The App logo is visible
-2022-02-18 19:42:16 INFO  LoginStepDefinitions:106 - The Products title is visible
-2022-02-18 19:42:16 INFO  LoginStepDefinitions:111 - 6 products are visible
-2022-02-18 19:42:16 INFO  LoginStepDefinitions:38 - The '2. The login is successful with the correct credentials'scenario ran successfully.
-2022-02-18 19:42:20 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-18 19:42:20 INFO  LoginStepDefinitions:83 - The username is typed into the field
-2022-02-18 19:42:20 INFO  LoginStepDefinitions:89 - The password is typed into the field
-2022-02-18 19:42:20 INFO  LoginStepDefinitions:96 - The login button is clicked
-2022-02-18 19:42:20 INFO  LoginStepDefinitions:101 - The App logo is visible
-2022-02-18 19:42:20 INFO  LoginStepDefinitions:106 - The Products title is visible
-2022-02-18 19:42:21 INFO  LoginStepDefinitions:111 - 6 products are visible
-2022-02-18 19:42:21 INFO  LoginStepDefinitions:38 - The '2. The login is successful with the correct credentials'scenario ran successfully.
-2022-02-18 19:42:38 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-18 19:42:39 INFO  LoginStepDefinitions:83 - The username is typed into the field
-2022-02-18 19:42:39 INFO  LoginStepDefinitions:89 - The password is typed into the field
-2022-02-18 19:42:39 INFO  LoginStepDefinitions:96 - The login button is clicked
-2022-02-18 19:42:39 INFO  LoginStepDefinitions:101 - The App logo is visible
-2022-02-18 19:42:39 INFO  LoginStepDefinitions:106 - The Products title is visible
-2022-02-18 19:42:39 INFO  LoginStepDefinitions:111 - 6 products are visible
-2022-02-18 19:42:39 INFO  LoginStepDefinitions:38 - The '2. The login is successful with the correct credentials'scenario ran successfully.
-2022-02-18 19:42:43 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-18 19:42:43 INFO  LoginStepDefinitions:83 - The username is typed into the field
-2022-02-18 19:42:43 INFO  LoginStepDefinitions:89 - The password is typed into the field
-2022-02-18 19:42:43 INFO  LoginStepDefinitions:96 - The login button is clicked
-2022-02-18 19:43:02 INFO  LoginStepDefinitions:36 - The '2. The login is successful with the correct credentials' scenario is failed.
-2022-02-21 11:03:22 INFO  LoginStepDefinitions:51 - the Site is opened succesfully
-2022-02-21 11:03:22 INFO  LoginStepDefinitions:36 - The '1. The home page is loaded' scenario is failed.
-2022-02-21 11:17:59 INFO  LoginStepDefinitions:55 - the Site is opened succesfully
-2022-02-21 11:18:00 INFO  LoginStepDefinitions:40 - The '1. The home page is loaded' scenario is failed.
-2022-02-21 11:20:27 INFO  LoginStepDefinitions:55 - the Site is opened succesfully
-2022-02-21 11:20:27 INFO  LoginStepDefinitions:40 - The '1. The home page is loaded' scenario is failed.
-2022-02-21 11:25:17 INFO  LoginStepDefinitions:55 - the Site is opened succesfully
-2022-02-21 11:25:17 INFO  LoginStepDefinitions:40 - The '1. The home page is loaded' scenario is failed.
-2022-02-21 11:31:05 INFO  LoginStepDefinitions:55 - the Site is opened succesfully
-2022-02-21 11:31:05 INFO  LoginStepDefinitions:37 - The '1. The home page is loaded' scenario is failed.
-2022-02-21 11:32:47 INFO  LoginStepDefinitions:55 - the Site is opened succesfully
-2022-02-21 11:32:47 INFO  LoginStepDefinitions:37 - The '1. The home page is loaded' scenario is failed.
-2022-02-21 11:36:29 INFO  LoginStepDefinitions:55 - the Site is opened succesfully
-2022-02-21 11:36:29 INFO  LoginStepDefinitions:37 - The '1. The home page is loaded' scenario is failed.
-2022-02-21 11:38:10 INFO  LoginStepDefinitions:56 - the Site is opened succesfully
-2022-02-21 11:38:10 INFO  LoginStepDefinitions:40 - The '1. The home page is loaded' scenario is failed.
-2022-02-21 11:39:35 INFO  LoginStepDefinitions:57 - the Site is opened succesfully
-2022-02-21 11:39:35 INFO  LoginStepDefinitions:41 - The '1. The home page is loaded' scenario is failed.
-2022-02-21 11:42:25 INFO  LoginStepDefinitions:56 - the Site is opened succesfully
-2022-02-21 11:42:25 INFO  LoginStepDefinitions:61 - the Login logo is visible
-2022-02-21 11:42:25 INFO  LoginStepDefinitions:66 - the Username input field is visible
-2022-02-21 11:42:25 INFO  LoginStepDefinitions:71 - the Password input field is visible
-2022-02-21 11:42:26 INFO  LoginStepDefinitions:76 - the Login button is visible
-2022-02-21 11:42:26 INFO  LoginStepDefinitions:81 - the Bot image is visible
-2022-02-21 11:42:26 INFO  LoginStepDefinitions:42 - The '1. The home page is loaded'scenario ran successfully.
-2022-02-21 11:42:29 INFO  LoginStepDefinitions:56 - the Site is opened succesfully
-2022-02-21 11:42:29 INFO  LoginStepDefinitions:88 - The username is typed into the field
-2022-02-21 11:42:30 INFO  LoginStepDefinitions:94 - The password is typed into the field
-2022-02-21 11:42:30 INFO  LoginStepDefinitions:101 - The login button is clicked
-2022-02-21 11:42:30 INFO  LoginStepDefinitions:106 - The App logo is visible
-2022-02-21 11:42:30 INFO  LoginStepDefinitions:111 - The Products title is visible
-2022-02-21 11:42:30 INFO  LoginStepDefinitions:116 - 6 products are visible
-2022-02-21 11:42:30 INFO  LoginStepDefinitions:42 - The '2. The login is successful with the correct credentials'scenario ran successfully.
-2022-02-21 11:42:34 INFO  LoginStepDefinitions:56 - the Site is opened succesfully
-2022-02-21 11:42:34 INFO  LoginStepDefinitions:88 - The username is typed into the field
-2022-02-21 11:42:34 INFO  LoginStepDefinitions:94 - The password is typed into the field
-2022-02-21 11:42:34 INFO  LoginStepDefinitions:101 - The login button is clicked
-2022-02-21 11:42:45 INFO  LoginStepDefinitions:40 - The '2. The login is successful with the correct credentials' scenario is failed.
-2022-02-21 11:42:48 INFO  LoginStepDefinitions:56 - the Site is opened succesfully
-2022-02-21 11:42:48 INFO  LoginStepDefinitions:88 - The username is typed into the field
-2022-02-21 11:42:48 INFO  LoginStepDefinitions:94 - The password is typed into the field
-2022-02-21 11:42:49 INFO  LoginStepDefinitions:101 - The login button is clicked
-2022-02-21 11:42:49 INFO  LoginStepDefinitions:122 - The error message is visible
-2022-02-21 11:42:49 INFO  LoginStepDefinitions:42 - The '3. The login is not successful with the incorrect credentials'scenario ran successfully.
-2022-02-21 11:42:52 INFO  LoginStepDefinitions:56 - the Site is opened succesfully
-2022-02-21 11:42:52 INFO  LoginStepDefinitions:88 - The username is typed into the field
-2022-02-21 11:42:52 INFO  LoginStepDefinitions:94 - The password is typed into the field
-2022-02-21 11:42:52 INFO  LoginStepDefinitions:101 - The login button is clicked
-2022-02-21 11:42:52 INFO  LoginStepDefinitions:122 - The error message is visible
-2022-02-21 11:42:53 INFO  LoginStepDefinitions:129 - The Login error close button is clicked
-2022-02-21 11:43:03 INFO  LoginStepDefinitions:134 - The error message is not displayed
-2022-02-21 11:43:13 INFO  LoginStepDefinitions:140 - The error icons are not displayed
-2022-02-21 11:43:13 INFO  LoginStepDefinitions:42 - The '4. The clicking of the close button on the error message hides the error message and error icons'scenario ran successfully.
-2022-02-21 11:59:22 INFO  LoginStepDefinitions:57 - the Site is opened succesfully
-2022-02-21 12:54:57 INFO  LoginStepDefinitions:58 - the Site is opened succesfully
-2022-02-21 12:54:57 INFO  LoginStepDefinitions:42 - The '1. The home page is loaded' scenario is failed.
-2022-02-22 11:22:07 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 11:22:10 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 11:22:12 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 11:22:14 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 11:58:57 INFO  LoginStepDefinitions:58 - the Site is opened succesfully
-2022-02-22 11:58:57 INFO  LoginStepDefinitions:41 - The ''scenario ran successfully.
-2022-02-22 11:58:58 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 11:59:03 INFO  LoginStepDefinitions:58 - the Site is opened succesfully
-2022-02-22 11:59:03 INFO  LoginStepDefinitions:41 - The ''scenario ran successfully.
-2022-02-22 11:59:04 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 11:59:10 INFO  LoginStepDefinitions:58 - the Site is opened succesfully
-2022-02-22 11:59:10 INFO  LoginStepDefinitions:41 - The ''scenario ran successfully.
-2022-02-22 11:59:10 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 11:59:15 INFO  LoginStepDefinitions:58 - the Site is opened succesfully
-2022-02-22 11:59:15 INFO  LoginStepDefinitions:41 - The ''scenario ran successfully.
-2022-02-22 11:59:16 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 12:02:30 INFO  LoginStepDefinitions:58 - the Site is opened succesfully
-2022-02-22 12:02:30 INFO  LoginStepDefinitions:41 - The ''scenario ran successfully.
-2022-02-22 12:02:30 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 12:02:36 INFO  LoginStepDefinitions:58 - the Site is opened succesfully
-2022-02-22 12:02:36 INFO  LoginStepDefinitions:41 - The ''scenario ran successfully.
-2022-02-22 12:02:37 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 12:02:44 INFO  LoginStepDefinitions:58 - the Site is opened succesfully
-2022-02-22 12:02:44 INFO  LoginStepDefinitions:41 - The ''scenario ran successfully.
-2022-02-22 12:02:44 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 12:02:50 INFO  LoginStepDefinitions:58 - the Site is opened succesfully
-2022-02-22 12:02:50 INFO  LoginStepDefinitions:41 - The ''scenario ran successfully.
-2022-02-22 12:02:50 INFO  LoginStepDefinitions:44 - The ''scenario ran successfully.
-2022-02-22 14:22:30 INFO  StepDefinitions:58 - the Site is opened succesfully
-2022-02-22 14:22:30 INFO  StepDefinitions:44 - The '1: The options are visible in the sorting dropdown menu'scenario ran successfully.
-2022-02-22 14:38:05 INFO  StepDefinitions:58 - the Site is opened succesfully
-2022-02-22 14:38:06 INFO  StepDefinitions:159 - The username is typed into the field
-2022-02-22 14:38:06 INFO  StepDefinitions:165 - The password is typed into the field
-2022-02-22 14:38:06 INFO  StepDefinitions:106 - The login button is clicked
-2022-02-22 14:38:29 INFO  StepDefinitions:58 - the Site is opened succesfully
-2022-02-22 14:38:29 INFO  StepDefinitions:159 - The username is typed into the field
-2022-02-22 14:38:29 INFO  StepDefinitions:165 - The password is typed into the field
-2022-02-22 14:38:29 INFO  StepDefinitions:106 - The login button is clicked
-2022-02-22 14:38:29 INFO  StepDefinitions:121 - 6 products are visible
-2022-02-22 14:38:29 INFO  StepDefinitions:151 - The sorting dropdown box is clicked
-2022-02-22 14:38:29 INFO  StepDefinitions:44 - The '1: Verifying the default option in the dropdown menu'scenario ran successfully.
-2022-02-22 14:38:33 INFO  StepDefinitions:58 - the Site is opened succesfully
-2022-02-22 14:38:33 INFO  StepDefinitions:159 - The username is typed into the field
-2022-02-22 14:38:33 INFO  StepDefinitions:165 - The password is typed into the field
-2022-02-22 14:38:33 INFO  StepDefinitions:106 - The login button is clicked
-2022-02-22 14:38:34 INFO  StepDefinitions:121 - 6 products are visible
-2022-02-22 14:38:34 INFO  StepDefinitions:151 - The sorting dropdown box is clicked
-2022-02-22 14:38:34 INFO  StepDefinitions:44 - The '1: Verifying the default option in the dropdown menu'scenario ran successfully.
-2022-02-22 14:38:37 INFO  StepDefinitions:58 - the Site is opened succesfully
-2022-02-22 14:38:37 INFO  StepDefinitions:159 - The username is typed into the field
-2022-02-22 14:38:37 INFO  StepDefinitions:165 - The password is typed into the field
-2022-02-22 14:38:37 INFO  StepDefinitions:106 - The login button is clicked
-2022-02-22 14:38:38 INFO  StepDefinitions:121 - 6 products are visible
-2022-02-22 14:38:38 INFO  StepDefinitions:151 - The sorting dropdown box is clicked
-2022-02-22 14:38:38 INFO  StepDefinitions:44 - The '1: Verifying the default option in the dropdown menu'scenario ran successfully.
-2022-02-22 14:38:43 INFO  StepDefinitions:58 - the Site is opened succesfully
-2022-02-22 14:38:43 INFO  StepDefinitions:159 - The username is typed into the field
-2022-02-22 14:38:43 INFO  StepDefinitions:165 - The password is typed into the field
-2022-02-22 14:38:43 INFO  StepDefinitions:106 - The login button is clicked
-2022-02-22 14:38:43 INFO  StepDefinitions:121 - 6 products are visible
-2022-02-22 14:38:43 INFO  StepDefinitions:151 - The sorting dropdown box is clicked
-2022-02-22 14:38:43 INFO  StepDefinitions:44 - The '1: Verifying the default option in the dropdown menu'scenario ran successfully.
-2022-02-22 15:20:24 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-22 15:20:24 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-22 15:20:24 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-22 15:20:24 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-22 15:20:25 INFO  StepDefinitions:122 - 6 products are visible
-2022-02-22 15:20:25 INFO  StepDefinitions:152 - The sorting dropdown box is clicked
-2022-02-22 15:20:25 INFO  StepDefinitions:43 - The '2 Test scenario' scenario is failed.
-2022-02-22 15:22:35 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-22 15:22:35 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-22 15:22:36 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-22 15:22:36 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-22 15:22:36 INFO  StepDefinitions:122 - 6 products are visible
-2022-02-22 15:22:36 INFO  StepDefinitions:152 - The sorting dropdown box is clicked
-2022-02-22 15:22:36 INFO  StepDefinitions:45 - The '2 Test scenario'scenario ran successfully.
-2022-02-22 15:25:56 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-22 15:25:57 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-22 15:25:57 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-22 15:25:57 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-22 15:25:57 INFO  StepDefinitions:122 - 6 products are visible
-2022-02-22 15:25:57 INFO  StepDefinitions:152 - The sorting dropdown box is clicked
-2022-02-22 15:25:57 INFO  StepDefinitions:45 - The '2 Test scenario'scenario ran successfully.
-2022-02-22 16:39:17 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-22 16:39:17 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-22 16:39:17 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-22 16:39:17 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-22 16:39:17 INFO  StepDefinitions:122 - 6 products are visible
-2022-02-22 16:39:17 INFO  StepDefinitions:152 - The sorting dropdown box is clicked
-2022-02-22 16:39:18 INFO  StepDefinitions:172 - The options are in the dropdown list
-2022-02-22 16:39:18 INFO  StepDefinitions:45 - The '1: Verifying the default option in the dropdown menu'scenario ran successfully.
-2022-02-22 17:20:28 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-22 17:20:28 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-22 17:20:28 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-22 17:20:29 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-22 17:20:29 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-22 17:20:29 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-22 17:20:29 INFO  StepDefinitions:43 - The '2. Verifying the menu visibility' scenario is failed.
-2022-02-22 17:20:34 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-22 17:20:34 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-22 17:20:34 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-22 17:20:34 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-22 17:20:34 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-22 17:20:35 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-22 17:20:35 INFO  StepDefinitions:43 - The '2. Verifying the menu visibility' scenario is failed.
-2022-02-22 17:20:38 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-22 17:20:38 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-22 17:20:38 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-22 17:20:39 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-22 17:20:39 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-22 17:20:39 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-22 17:20:39 INFO  StepDefinitions:43 - The '2. Verifying the menu visibility' scenario is failed.
-2022-02-22 17:20:43 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-22 17:20:43 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-22 17:20:44 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-22 17:20:44 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-22 17:20:44 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-22 17:20:44 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-22 17:20:44 INFO  StepDefinitions:43 - The '2. Verifying the menu visibility' scenario is failed.
-2022-02-23 08:52:56 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-23 08:52:56 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-23 08:52:57 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-23 08:52:57 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-23 08:52:57 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-23 08:52:57 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-23 08:52:57 INFO  StepDefinitions:43 - The '2. Verifying the menu visibility' scenario is failed.
-2022-02-23 08:53:01 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-23 08:53:01 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-23 08:53:02 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-23 08:53:02 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-23 08:53:02 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-23 08:53:02 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-23 08:53:02 INFO  StepDefinitions:43 - The '2. Verifying the menu visibility' scenario is failed.
-2022-02-23 08:53:06 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-23 08:53:06 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-23 08:53:06 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-23 08:53:06 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-23 08:53:06 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-23 08:53:06 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-23 08:53:07 INFO  StepDefinitions:43 - The '2. Verifying the menu visibility' scenario is failed.
-2022-02-23 08:53:10 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-23 08:53:10 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-23 08:53:10 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-23 08:53:10 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-23 08:53:11 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-23 08:53:11 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-23 08:53:11 INFO  StepDefinitions:43 - The '2. Verifying the menu visibility' scenario is failed.
-2022-02-23 08:55:00 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-23 08:55:00 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-23 08:55:00 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-23 08:55:00 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-23 08:55:00 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-23 08:55:00 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-23 08:55:01 INFO  StepDefinitions:179 - TheAll itemsitem is visible in the menu
-2022-02-23 08:55:01 INFO  StepDefinitions:45 - The '2. Verifying the menu visibility'scenario ran successfully.
-2022-02-23 08:55:04 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-23 08:55:04 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-23 08:55:04 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-23 08:55:05 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-23 08:55:05 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-23 08:55:05 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-23 08:55:05 INFO  StepDefinitions:179 - TheAboutitem is visible in the menu
-2022-02-23 08:55:05 INFO  StepDefinitions:45 - The '2. Verifying the menu visibility'scenario ran successfully.
-2022-02-23 08:55:08 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-23 08:55:09 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-23 08:55:09 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-23 08:55:09 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-23 08:55:09 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-23 08:55:09 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-23 08:55:10 INFO  StepDefinitions:179 - TheLogoutitem is visible in the menu
-2022-02-23 08:55:10 INFO  StepDefinitions:45 - The '2. Verifying the menu visibility'scenario ran successfully.
-2022-02-23 08:55:13 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-23 08:55:13 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-23 08:55:13 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-23 08:55:13 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-23 08:55:13 INFO  StepDefinitions:117 - The Products title is visible
-2022-02-23 08:55:13 INFO  StepDefinitions:186 - The menu button is clicked
-2022-02-23 08:55:14 INFO  StepDefinitions:179 - TheReset App Stateitem is visible in the menu
-2022-02-23 08:55:14 INFO  StepDefinitions:45 - The '2. Verifying the menu visibility'scenario ran successfully.
-2022-02-23 09:54:24 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-23 09:54:24 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-23 09:54:24 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-23 09:54:25 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-23 09:54:25 INFO  StepDefinitions:122 - 6 products are visible
-2022-02-23 09:54:25 INFO  StepDefinitions:192 - The Add to cart button is clicked
-2022-02-23 09:54:36 INFO  StepDefinitions:43 - The '3. The Add to cart button of an item changes to remove when I add it to the shopping cart' scenario is failed.
-2022-02-23 10:25:16 INFO  StepDefinitions:59 - the Site is opened succesfully
-2022-02-23 10:25:16 INFO  StepDefinitions:160 - The username is typed into the field
-2022-02-23 10:25:16 INFO  StepDefinitions:166 - The password is typed into the field
-2022-02-23 10:25:16 INFO  StepDefinitions:107 - The login button is clicked
-2022-02-23 10:25:17 INFO  StepDefinitions:122 - 6 products are visible
-2022-02-23 10:25:17 INFO  StepDefinitions:192 - The Add to cart button is clicked
-2022-02-23 10:25:17 INFO  StepDefinitions:199 - The remove button is visible
-2022-02-23 10:25:17 INFO  StepDefinitions:45 - The '3. The Add to cart button of an item changes to remove when I add it to the shopping cart'scenario ran successfully.
-2022-05-17 11:22:47 INFO  StepDefinitions:58 - the Site is opened succesfully
-2022-05-17 11:22:47 INFO  StepDefinitions:159 - The username is typed into the field
-2022-05-17 11:22:47 INFO  StepDefinitions:165 - The password is typed into the field
-2022-05-17 11:22:47 INFO  StepDefinitions:106 - The login button is clicked
-2022-05-17 11:22:48 INFO  StepDefinitions:121 - 6 products are visible
-2022-05-17 11:22:48 INFO  StepDefinitions:191 - The Add to cart button is clicked
-2022-05-17 11:22:48 INFO  StepDefinitions:198 - The remove button is visible
-2022-05-17 11:22:48 INFO  StepDefinitions:44 - The '3. The Add to cart button of an item changes to remove when I add it to the shopping cart'scenario ran successfully.
-2022-05-17 11:34:58 INFO  StepDefinitions:62 - the Site is opened succesfully
-2022-05-17 11:34:59 INFO  StepDefinitions:163 - The username is typed into the field
-2022-05-17 11:34:59 INFO  StepDefinitions:169 - The password is typed into the field
-2022-05-17 11:34:59 INFO  StepDefinitions:110 - The login button is clicked
-2022-05-17 11:34:59 INFO  StepDefinitions:125 - 6 products are visible
-2022-05-17 11:35:00 INFO  StepDefinitions:195 - The Add to cart button is clicked
-2022-05-17 11:35:00 INFO  StepDefinitions:214 - The Shopping cart button is clicked
-2022-05-17 11:35:00 INFO  StepDefinitions:208 - The item in the shopping cart is visible
-2022-05-17 11:35:00 INFO  StepDefinitions:47 - The '4: An item is added to the shopping cart if I add it to the shopping cart'scenario ran successfully.
+2023-10-27 11:41:46 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:41:46 INFO  StepDefinitions:69 - the Login logo is visible
+2023-10-27 11:41:46 INFO  StepDefinitions:74 - the Username input field is visible
+2023-10-27 11:41:47 INFO  StepDefinitions:79 - the Password input field is visible
+2023-10-27 11:41:47 INFO  StepDefinitions:84 - the Login button is visible
+2023-10-27 11:41:47 INFO  StepDefinitions:89 - the Credentials helper is visible
+2023-10-27 11:41:47 INFO  StepDefinitions:49 - The '1. The home page is loaded'scenario ran successfully.
+2023-10-27 11:41:50 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:41:51 INFO  StepDefinitions:98 - The username is typed into the field
+2023-10-27 11:41:51 INFO  StepDefinitions:104 - The password is typed into the field
+2023-10-27 11:41:51 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:41:51 INFO  StepDefinitions:116 - The App logo is visible
+2023-10-27 11:41:51 INFO  StepDefinitions:121 - The Products title is visible
+2023-10-27 11:41:52 INFO  StepDefinitions:126 - 6 products are visible
+2023-10-27 11:41:52 INFO  StepDefinitions:49 - The '2. The login is successful with the correct credentials'scenario ran successfully.
+2023-10-27 11:41:55 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:41:56 INFO  StepDefinitions:98 - The username is typed into the field
+2023-10-27 11:41:56 INFO  StepDefinitions:104 - The password is typed into the field
+2023-10-27 11:41:56 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:41:56 INFO  StepDefinitions:116 - The App logo is visible
+2023-10-27 11:41:56 INFO  StepDefinitions:121 - The Products title is visible
+2023-10-27 11:41:57 INFO  StepDefinitions:126 - 6 products are visible
+2023-10-27 11:41:57 INFO  StepDefinitions:49 - The '2. The login is successful with the correct credentials'scenario ran successfully.
+2023-10-27 11:42:00 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:42:00 INFO  StepDefinitions:98 - The username is typed into the field
+2023-10-27 11:42:01 INFO  StepDefinitions:104 - The password is typed into the field
+2023-10-27 11:42:01 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:42:01 INFO  StepDefinitions:132 - The error message is visible
+2023-10-27 11:42:01 INFO  StepDefinitions:49 - The '3. The login is not successful with the incorrect credentials'scenario ran successfully.
+2023-10-27 11:42:05 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:42:05 INFO  StepDefinitions:98 - The username is typed into the field
+2023-10-27 11:42:05 INFO  StepDefinitions:104 - The password is typed into the field
+2023-10-27 11:42:05 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:42:05 INFO  StepDefinitions:132 - The error message is visible
+2023-10-27 11:42:06 INFO  StepDefinitions:139 - The Login error close button is clicked
+2023-10-27 11:42:16 INFO  StepDefinitions:144 - The error message is not displayed
+2023-10-27 11:42:26 INFO  StepDefinitions:150 - The error icons are not displayed
+2023-10-27 11:42:26 INFO  StepDefinitions:49 - The '4. The clicking of the close button on the error message hides the error message and error icons'scenario ran successfully.
+2023-10-27 11:42:29 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:42:30 INFO  StepDefinitions:164 - The username is typed into the field
+2023-10-27 11:42:30 INFO  StepDefinitions:170 - The password is typed into the field
+2023-10-27 11:42:30 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:42:31 INFO  StepDefinitions:126 - 6 products are visible
+2023-10-27 11:42:31 INFO  StepDefinitions:156 - The sorting dropdown box is clicked
+2023-10-27 11:42:31 INFO  StepDefinitions:176 - The options are in the dropdown list
+2023-10-27 11:42:31 INFO  StepDefinitions:49 - The '1. Verifying the default option in the dropdown menu'scenario ran successfully.
+2023-10-27 11:42:35 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:42:35 INFO  StepDefinitions:164 - The username is typed into the field
+2023-10-27 11:42:35 INFO  StepDefinitions:170 - The password is typed into the field
+2023-10-27 11:42:35 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:42:35 INFO  StepDefinitions:121 - The Products title is visible
+2023-10-27 11:42:35 INFO  StepDefinitions:190 - The menu button is clicked
+2023-10-27 11:42:36 INFO  StepDefinitions:183 - TheAll itemsitem is visible in the menu
+2023-10-27 11:42:36 INFO  StepDefinitions:49 - The '2. Verifying the menu visibility'scenario ran successfully.
+2023-10-27 11:42:39 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:42:40 INFO  StepDefinitions:164 - The username is typed into the field
+2023-10-27 11:42:40 INFO  StepDefinitions:170 - The password is typed into the field
+2023-10-27 11:42:40 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:42:40 INFO  StepDefinitions:121 - The Products title is visible
+2023-10-27 11:42:40 INFO  StepDefinitions:190 - The menu button is clicked
+2023-10-27 11:42:41 INFO  StepDefinitions:183 - TheAboutitem is visible in the menu
+2023-10-27 11:42:41 INFO  StepDefinitions:49 - The '2. Verifying the menu visibility'scenario ran successfully.
+2023-10-27 11:42:44 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:42:45 INFO  StepDefinitions:164 - The username is typed into the field
+2023-10-27 11:42:45 INFO  StepDefinitions:170 - The password is typed into the field
+2023-10-27 11:42:45 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:42:45 INFO  StepDefinitions:121 - The Products title is visible
+2023-10-27 11:42:46 INFO  StepDefinitions:190 - The menu button is clicked
+2023-10-27 11:42:46 INFO  StepDefinitions:183 - TheLogoutitem is visible in the menu
+2023-10-27 11:42:46 INFO  StepDefinitions:49 - The '2. Verifying the menu visibility'scenario ran successfully.
+2023-10-27 11:42:49 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:42:49 INFO  StepDefinitions:164 - The username is typed into the field
+2023-10-27 11:42:50 INFO  StepDefinitions:170 - The password is typed into the field
+2023-10-27 11:42:50 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:42:50 INFO  StepDefinitions:121 - The Products title is visible
+2023-10-27 11:42:50 INFO  StepDefinitions:190 - The menu button is clicked
+2023-10-27 11:42:50 INFO  StepDefinitions:183 - TheReset App Stateitem is visible in the menu
+2023-10-27 11:42:50 INFO  StepDefinitions:49 - The '2. Verifying the menu visibility'scenario ran successfully.
+2023-10-27 11:42:54 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:42:54 INFO  StepDefinitions:164 - The username is typed into the field
+2023-10-27 11:42:54 INFO  StepDefinitions:170 - The password is typed into the field
+2023-10-27 11:42:54 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:42:55 INFO  StepDefinitions:126 - 6 products are visible
+2023-10-27 11:42:55 INFO  StepDefinitions:196 - The Add to cart button is clicked
+2023-10-27 11:42:55 INFO  StepDefinitions:203 - The remove button is visible
+2023-10-27 11:42:55 INFO  StepDefinitions:49 - The '3. The Add to cart button of an item changes to remove when I add it to the shopping cart'scenario ran successfully.
+2023-10-27 11:42:59 INFO  StepDefinitions:64 - the Site is opened succesfully
+2023-10-27 11:42:59 INFO  StepDefinitions:164 - The username is typed into the field
+2023-10-27 11:42:59 INFO  StepDefinitions:170 - The password is typed into the field
+2023-10-27 11:43:00 INFO  StepDefinitions:111 - The login button is clicked
+2023-10-27 11:43:00 INFO  StepDefinitions:126 - 6 products are visible
+2023-10-27 11:43:00 INFO  StepDefinitions:196 - The Add to cart button is clicked
+2023-10-27 11:43:00 INFO  StepDefinitions:215 - The Shopping cart button is clicked
+2023-10-27 11:43:00 INFO  StepDefinitions:209 - The item in the shopping cart is visible
+2023-10-27 11:43:00 INFO  StepDefinitions:49 - The '4: An item is added to the shopping cart if I add it to the shopping cart'scenario ran successfully.

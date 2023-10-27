@@ -1,3 +1,4 @@
+@login
 Feature: Products page functions
 
   Background:
